@@ -9,6 +9,7 @@
 }
 
 body {
+  background-color: var(--v-light-gray);
   display: grid;
   align-content: center;
   justify-items: center;
@@ -61,8 +62,7 @@ p {
 }
 button {
   width: max(60%, 150px);
-  background-color: var(--trans-white);
-  /* color: ; */
+  background-color: var(--v-light-gray);
   border: 2px solid transparent;
   padding: 0.5rem;
   border-radius: 40px;
@@ -72,8 +72,8 @@ button {
 button:hover,
 button:focus {
   background-color: transparent;
-  color: var(--trans-white);
-  border: 2px solid var(--trans-white);
+  color: var(--v-light-gray);
+  border: 2px solid var(--v-light-gray);
 }
 .attribution p {
   text-align: center;
